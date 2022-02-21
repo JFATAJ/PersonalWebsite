@@ -1,0 +1,168 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-family: "Bookman Old Style", "Serifa BT", "URW Bookman L", "itc bookman", times, serif;
+}
+
+nav {
+    background-color: gainsboro;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    top: 0px;
+}
+
+nav li {
+    display: inline-block;
+    width: 24%;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+section {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.intro img {
+    padding-left: 5%;
+    padding-bottom: 20%;
+    width: 80%;
+    height: auto;
+    float: left;
+}
+
+.intro div {
+    padding-top: 20%;
+    row-gap: 30%;
+}
+
+.keywords {
+    font-size: 40px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+
+#skills {
+    padding-left: 30%;
+    max-width: 75%;
+    height: auto;
+}
+
+#experience {
+    font-size: larger;
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+    nav li {
+        font-size: 35px;
+    }
+    .keywords {
+        padding-left: 50px;
+        font-size: 25px;
+    }
+    .quote {
+        padding-left: 50px;
+        font-size: 15px;
+    }
+    #experience {
+        font-size: 15px;
+    }
+    .intro img {
+        height: 470px;
+        width: auto;
+    }
+    #skills {
+        max-width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav li {
+        font-size: 25px;
+    }
+    .keywords {
+        padding-left: 50px;
+        font-size: 17px;
+    }
+    .quote {
+        padding-left: 50px;
+        font-size: 12px;
+    }
+    #experience {
+        padding-left: 50px;
+        font-size: 13px;
+    }
+    .intro img {
+        height: 350px;
+        width: auto;
+    }
+    #skills {
+        max-width: 50%;
+        height: auto;
+    }
+    footer {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    nav {
+        padding: 2px;
+    }
+    nav li {
+        font-size: 15px;
+        display: inline;
+        margin: 10px 0px;
+    }
+    .keywords {
+        padding-left: 25px;
+        font-size: 12px;
+    }
+    .quote {
+        padding-left: 25px;
+        font-size: 5px;
+    }
+    #experience {
+        padding-left: 25px;
+        font-size: 7px;
+    }
+    .intro img {
+        height: 185px;
+        width: auto;
+    }
+    #skills {
+        padding-left: 40px;
+        max-width: 30%;
+    }
+    footer {
+        font-size: 10px;
+    }
+}

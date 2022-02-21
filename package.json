@@ -1,0 +1,21 @@
+{
+  "name": "cs5610-personalwebsite",
+  "version": "1.0.0",
+  "description": "Repository to store Personal Website code for CS5610 Class",
+  "main": "index.js",
+  "engines": {
+    "node": "*",
+    "npm": "*"
+  },
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "author": "Jurgen Fataj",
+  "license": "ISC",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

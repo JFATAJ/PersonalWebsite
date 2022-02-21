@@ -1,0 +1,111 @@
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-family: "Bookman Old Style", "Serifa BT", "URW Bookman L", "itc bookman", times, serif;
+}
+
+nav {
+    background-color: gainsboro;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    width: 100%;
+    top: 0px;
+}
+
+nav li {
+    display: inline-block;
+    width: 24%;
+    font-size: 50px;
+    position: relative;
+    text-align: center;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+article {
+    display: flex;
+    word-wrap: normal;
+    width: 60%;
+    height: auto;
+}
+
+.headshot {
+    padding-left: 7%;
+    padding-top: 5%;
+    width: 20%;
+    height: auto;
+}
+
+.albania {
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-decoration-style: solid;
+}
+
+.tables {
+    width: 100%;
+    text-align: left;
+    vertical-align: middle;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+th, td {
+    border: 1px solid grey;
+    padding: 15px;
+}
+
+tbody tr th {
+    font-weight: normal;
+}
+
+tr:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+thead {
+    background-color: rgb(216, 212, 212);
+}
+
+@media screen and (max-width: 1000px) {
+    nav li {
+        font-size: 35px;
+    }
+    .headshot img {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    nav li {
+        font-size: 25px;
+    }
+    .headshot img {
+        width: 200px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    nav {
+        padding: 2px;
+    }
+    nav li {
+        font-size: 15px;
+        display: inline;
+        margin: 10px 0px;
+    }
+    p, h1, h2, th, button {
+        font-size: 7px;
+    }
+    .headshot img {
+        width: 120px;
+        height: auto;
+    }
+}
